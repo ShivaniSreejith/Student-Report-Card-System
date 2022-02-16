@@ -1,5 +1,3 @@
-//                   STUDENT REPORT CARD SYSTEM
-
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -56,26 +54,26 @@ student::calculate ()
 void
 student::getdata ()
 {
-  cout << "\nEnter The roll number of student: ";
+  cout << "\nEnter The roll number of student ";
   cin >> rollno;
 
-  cout << "\n\nEnter The Name of student: ";
+  cout << "\n\nEnter The Name of student ";
   cin.ignore ();
   cin.getline (name, 50);
 
-  cout << "\nEnter The marks in physics out of 100: ";
+  cout << "\nEnter The marks in physics out of 100 : ";
   cin >> p_marks;
 
-  cout << "\nEnter The marks in chemistry out of 100: ";
+  cout << "\nEnter The marks in chemistry out of 100 : ";
   cin >> c_marks;
 
-  cout << "\nEnter The marks in maths out of 100: ";
+  cout << "\nEnter The marks in maths out of 100 : ";
   cin >> m_marks;
 
-  cout << "\nEnter The marks in english out of 100: ";
+  cout << "\nEnter The marks in english out of 100 : ";
   cin >> e_marks;
 
-  cout << "\nEnter The marks in computer science out of 100: ";
+  cout << "\nEnter The marks in computer science out of 100 : ";
   cin >> cs_marks;
 
   calculate ();
@@ -144,7 +142,7 @@ void
   do
   
     {
-      system ("cls");
+    
 
       cout << "\n\n\n\tMAIN MENU";
 
@@ -462,7 +460,7 @@ class_result ()
 
   cout << "==========================================================\n";
 
-  cout << "R.No       Name        P   C   M   E   CS   %age   Grade" << endl;
+  cout << "R.No  Name          P   C   M   E   CS   %age   Grade" << endl;
 
   cout << "==========================================================\n";
 
@@ -492,7 +490,7 @@ result ()
 
   int rno;
 
-  system ("cls");
+  
 
   cout << "\n\n\n\tRESULT MENU";
 
@@ -506,7 +504,7 @@ result ()
 
   cin >> ch;
 
-  system ("cls");
+ 
   
   switch (ch)
 
@@ -553,7 +551,7 @@ entry_menu ()
 
   int num;
 
-  system ("cls");
+ 
 
   cout << "\n\n\n\tENTRY MENU";
 
@@ -573,7 +571,7 @@ entry_menu ()
 
   cin >> ch;
 
-  system ("cls");
+ 
 
   switch (ch)
 
